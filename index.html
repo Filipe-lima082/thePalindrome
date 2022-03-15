@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ThePalindrome - Seu verificador de palindromo online.</title>
+</head>
+<body>
+
+    <header class="header container">
+        <div class="container">
+            <h1 class="logo">The<span class="sublogo">Palindrome</span></h1>
+        </div>
+
+        <div>
+            <a href="#palindromo" class="menu-header">Como funciona</a>
+        </div>
+
+    </header>
+    <span class="line"></span>
+
+    <section class="container content">
+        <h1>Verifique se a palavra é um palindromo</h1>
+        <div class="form">
+            <form>
+                <label for="palindromo">Informe uma palavra</label>
+                <span class="info-span">Não aceita "~" e outros acentos e caracteres especiais.</span>
+                <input type="text" placeholder="Ex: omissíssimo" id="input" required>
+                <button class="button" id="btn-form">Verificar</button>
+            </form>
+        </div>
+
+        <blockquote class="explication" id="palindromo">
+            <h2>O'que é um Palindromo</h2>
+            <p>
+                Palíndromo, do grego palin (novo) e dromo (percurso), é toda palavra ou frase que pode ser lida de trás pra frente e que, independente da direção, mantém o seu sentido. Também chamadas de anacíclicas, elas devem ser lidas considerando-se apenas as letras.
+                
+            </p>
+
+            <p>
+                Também chamadas de anacíclicas, elas devem ser lidas considerando-se apenas as letras. Isso quer dizer que não se consideram acentos e, no caso das frases, também não se deve considerar a pontuação e o espaço entre as palavras.
+            </p>
+
+            <p>
+                Experimente com a frase “Socorram-me, subi no ônibus em Marrocos".
+            </p>
+        </blockquote>
+    </section>
+
+    <footer class="footer">
+        <p>ThePalindrome - Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

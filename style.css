@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #353333;
+}
+
+
+ul, li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    width: min(80%, 1100px);
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.line{
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo, .sublogo{
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logo::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: #FBFCC1;
+    display: block;
+}
+
+.sublogo{
+    color: #FBFCC1
+}
+
+.menu-header{
+    font-size: 1.6rem;
+    padding: 12px 20px;
+    display: block;
+    background: #FBFCC1;
+    color: #353333;
+    border-radius: 2px;
+}
+
+.content{
+    padding: 20px 0;
+}
+
+.content h1{
+    font-size: 3.4rem;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form label{
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 700px;
+    display: block;
+    outline: none;
+    color: #fff;
+    border: 1px solid #353333;
+}
+
+.form input:focus{
+    transition: .4s;
+    border-color: #FBFCC1;
+}
+
+.form input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    border: none;
+    background-color: #FBFCC1;
+    padding: 15px 50px;
+    border-radius: 0.25rem;
+    margin: 16px 0;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    background-color: #d0d19d;
+}
+
+.explication{
+    max-width: 700px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.explication h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.explication p{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.explication cite{
+    font-size: 1.6rem;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    background-color: #FBFCC1;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 1.6rem;
+}
+
+.info-span{
+    font-size: 1.2rem;
+    display: block;
+    color: rgb(209, 201, 201);
+    margin-bottom: 8px;
+}
